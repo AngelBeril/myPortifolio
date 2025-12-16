@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Background stars */
+.stars {
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    background: url('https://raw.githubusercontent.com/joyeetrivedi/starbackground/main/stars.png');
+    animation: moveStars 60s linear infinite;
+}
+@keyframes moveStars {
+    from {transform: translate(0,0);}
+    to {transform: translate(-500px,-500px);}
+}
+
+.container {
+    width: 50%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/* Profile Card */
+.profile-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner {
+    width: 100%;
+    height: 120px;
+    background: repeating-linear-gradient(45deg, #283593, #283593 20px, #1A237E 20px, #1A237E 40px);
+    border-radius: 10px;
+}
+
+.avatar img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: -45px;
+    border: 4px solid white;
+}
+
+/* Thank You Section */
+.thank-box {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.thank-box h1 {
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+
+.thank-box hr {
+    width: 40%;
+    border: 1px solid #82B1FF;
+}
+
+.social a {
+    color: white;
+    font-size: 28px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.social a:hover {
+    color: #82B1FF;
+}
+
+/* Side Image */
+.side-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.side-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

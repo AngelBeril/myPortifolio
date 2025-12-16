@@ -1,0 +1,54 @@
+h1,h2{ 
+    color: green;
+} 
+dt{
+    color: blue;
+}
+.account{
+    color: hsla(240, 70%, 34%, 0.534);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#routime{
+    color: brown;
+}
+body{
+    background-color: aqua;
+}
+.emclass{
+    color: red;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+/*
+implementation types
+------------------
+External - separate file
+Internal - head -> <style>
+Inline -> boby - style
+
+selectors
+-------------
+1. Element
+2. class
+3. Id, -> group
+4. Universe
+
+Inhertance
+------------
+parent(common style), child (specific)
+Not applicable for form
+
+colors
+-------------
+RGB
+HEX
+HSL 
+
+*/

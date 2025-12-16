@@ -1,0 +1,198 @@
+*{
+    border: 50px;
+    padding: 0.5px;
+    border-left: 200px;
+}
+img{
+width: 15%;
+height: auto;
+border: 5px double green;
+border-radius: 50%;
+}
+
+figure{
+    align-items: end;
+    display: inline block;
+    text-align: right;
+}
+.site-header{
+    /*background-color: aqua;
+    /*background-image: url("bg_img1.jpg");*/
+    background-repeat: no-repeat;
+    border-bottom: 5px solid black
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.163);
+
+    color: white;
+    border: 100%;
+    padding: 0.5em 0.5em;
+    text-align: center;
+}
+.hrr{
+    border-radius: 5px;
+    border-color: azure;
+}
+
+body {
+  margin: 5px;
+  font-family: Poppins, sans-serif;
+  background: #000;
+  color: #fff;
+  font-style: oblique;
+  overflow-x: hidden;
+}
+
+/* Star Background */
+body::before {
+  content: "Angel's Portifolio";
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: url("bg_image.jpg") repeat;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.timeline {
+  position: relative;
+  width: 80%;
+  margin: 100px auto;
+  padding: 20px 0;
+}
+
+/* Vertical Line */
+.timeline::before {
+  content: "carrer";
+  position: absolute;
+  left: 50%;
+  width: 4px;
+  background: #d5b4ff;
+  top: 0;
+  bottom: 0;
+}
+
+/* Container */
+.timeline-container {
+  width: 50%;
+  padding: 20px;
+  position: relative;
+}
+
+/* Left Alignment */
+.timeline-container.left {
+  left: 0;
+  text-align: right;
+}
+
+/* Right Alignment */
+.timeline-container.right {
+  left: 50%;
+}
+
+/* Card Box */
+.card {
+  background: transparent;
+  border: 2px solid #d5b4ff;
+  border-radius: 14px;
+  padding: 18px 26px;
+  transition: .3s ease;
+  margin: 80px;
+}
+
+.card:hover {
+  box-shadow: 0 0 18px #d5b4ff;
+}
+
+/* Icon in the center */
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #d5b4ff;
+  color: #000;
+  font-size: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+/* Icon Placement */
+.timeline-container.left .icon {
+  right: -30px;
+}
+
+.timeline-container.right .icon {
+  left: -60px;
+}
+
+/* Year Text */
+.year {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #d5b4ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .timeline::before { left: 15px; }
+  .timeline-container { width: 100%; text-align: left; padding-left: 40px; }
+  .timeline-container.right { left: 0; }
+  .icon { left: -5px !important; right: auto !important; }
+}
+
+.indent{
+    text-indent: 5em;
+}
+.slider {
+  width: 100%;
+  overflow: hidden;
+  transform: translateY(-50%);
+  /*background: #f4f4f4;*/
+  padding: 20px 0;
+}
+
+.slide-track {
+  display: flex;
+  gap: 40px;
+  animation: scroll 25s linear infinite;
+}
+
+.slide-track img {
+  width: 60px;
+  height: 60px;
+}
+
+/* Animation */
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.contact{
+  background: transparent;
+  border: 2px solid #d5b4ff;
+  border-radius: 14px;
+  padding: 18px 26px;
+  transition: .3s ease;
+  margin: 80px;
+  columns: 2;
+}
+.hrline{
+  content: "";
+  position: absolute;
+  left: 0%;
+  width: 1px;
+  background: #d5b4ff;
+  top: 50%;
+  bottom: 4px;
+   position: relative;
+  width: auto;
+  margin:  auto;
+  padding: 1px 0;
+}

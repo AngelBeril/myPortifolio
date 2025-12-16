@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Angel — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Portfolio — Full stack developer, projects, contact." />
+  <link rel="stylesheet" href="Angel.css" type="text/css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Angel's Portifolio</a>
+      <figure>
+            <figcaption> <h3>Angel G</h3></figcaption>
+            <img src="Angel.jpg" alt="my profile" title="My profile pic" width="100" height="100" loading="lazy">
+        </figure>
+      <nav class="nav">
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#edu_section">Education Details</a>
+        <a href="#contact">Contact</a>
+  </div>
+        
+      </nav>
+      
+    </div>
+    <hr>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hi — I'm <span class="accent">Angel</span></h1>
+          <p class="lead">Full-stack developer building fast, accessible and beautiful web experiences. I specialise in Java Spring Boot Full Satck backend frameworks.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#projects">See projects</a>
+            <a class="btn outline" href="#contact">Hire me</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="profile-pic" role="img" aria-label="Profile illustration"></div>
+          <ul class="meta">
+            <li><strong>Location</strong><br/>Chennai, India</li>
+            <li><strong>Experience</strong><br/>8+ years</li>
+            <li><strong>Email</strong><br/><a href="mailto:angelselvakumarinfo@example.com">angelselvakumarinfo@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2>About</h2>
+        <div class="about-grid">
+          <div>
+            <p class="indent">I design and build web applications with a focus on performance and user experience. I enjoy working across the stack and shipping products that help people.</p>
+            <p>My toolset includes Java, Spring Boot, Hibernate, Data JPA, REST API, Azure Dev Ops, Microservices, Docker, Kubernate, Kafka, React and modern CSS, Python and Data Science. I follow best practices for accessibility and testing.</p>
+          </div>
+          <div class="about-stats">
+            <ul>
+            <li><div><span class="stat">8+</span><span>Years experience</span></div></li>
+            <li><div><span class="stat">20+</span><span>Projects shipped</span></div></li>
+            <li><div><span class="stat">100%</span><span>Client satisfaction</span></div></li>
+          </div>
+        </ul>
+        </div>
+      </div>
+    </section>
+<hr class="hrline">
+    <!-- SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <dl>
+        <div class="skills-grid">
+          <div class="skill">
+            <dt><h3>Frontend</h3></dt>
+            <dd><p>HTML, CSS, JavaScript, React</p></dd>
+          </div>
+          <div class="skill">
+            <dt></dt><h3>Backend</h3></dt>
+            <dd><p>Java , Spring , Spring Boot, Microservices, Hibernate, DATA Jpa, Azure Dev Ops, REST APIs</p></dd>
+          </div>
+          <div class="skill">
+            <dt></dt><h3>Data & DevOps</h3></dt>
+            <dd><p>MySQL, Docker, Kubernate, PostgreSQL, Azure Dev Ops CI/CD</p></dd>
+          </div>
+          <div class="skill">
+            <dt></dt><h3>Tools</h3></dt>
+            <dd><p>Git, VS Code, Postman, Eclipse, Intellij, Pycharm</p></dd>
+          </div>
+        </div>
+        </dl>
+      </div>
+    </section>
+<hr class="hrline">
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <dl>
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <dt><h3>Daily Breads — Grocery App</h3></dt>
+              <dd><p>Flutter frontend, Node.js + MongoDB backend, Razorpay & Stripe integration — e-commerce for groceries.</p></dd>
+              <aside>
+                <details>
+                  <summary class="project-link" href="#">View details</summary>
+                  <p>Daily Breads — Grocery App is a full-stack grocery ordering and delivery system. It allows customers to browse products, add them to cart, place orders, and make online payments. The system includes three parts: Mobile App (Flutter) for users, Web Admin Panel (React) for store management, and Backend (Node.js / Spring Boot + MongoDB) for handling data and business logic.</p>
+                  </details>
+                  </aside>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <dt><h3>API Security Research</h3></dt>
+              <dd><p>Hybrid AI anomaly detection for Kubernetes API server logs (Isolation Forest + LSTM).</p></dd>
+              <aside>
+                <details>
+              <summary class="project-link" href="#">View details</summary>
+              <p>This research focuses on securing Kubernetes API servers by detecting abnormal or malicious access patterns in API request logs. The Kubernetes API server is the central control point of the cluster, and any unauthorized or unusual activity (e.g., privilege escalation, token misuse, lateral movement, brute-force access) can compromise the entire environment. Traditional rule-based security systems often fail to detect evolving and unknown attacks. Therefore, a hybrid AI approach is used to improve detection accuracy.
+
+                      Concept
+
+                      The system combines:
+
+                      Isolation Forest (IF) — a machine learning model that identifies statistical outliers in numerical API log features (e.g., request frequency, response size, latency).
+
+                      Long Short-Term Memory (LSTM) — a deep learning model that learns sequence behavior patterns over time (e.g., order of API calls per user/role).
+
+                      By using both models, the system detects:
+
+                      Irregular request frequency spikes
+
+                      Unusual API endpoint access by users or service accounts
+
+                      Suspicious command sequences indicating potential attacks</p>
+                       </details>
+                  </aside>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <dt><h3>Portfolio Website</h3></dt>
+              <dd><p>Modern responsive single-page site with accessible navigation and SEO optimizations.</p></dd>
+              <aside>
+                <details>
+              <summary class="project-link" href="#">View details</summary>
+              <p>This project is a modern, fully responsive single-page portfolio website designed to showcase personal skills, experience, and projects in a visually clean and professional layout. The site uses accessible navigation, clear typography, and structured content sections to ensure usability for all users and screen sizes (mobile, tablet, desktop). Built with proper semantic HTML, meta tags, and performance optimizations, it also follows SEO best practices so the profile appears clearly in search results. Smooth scrolling, section highlighting, and call-to-action elements guide visitors through your work and contact details in a simple, engaging flow</p>
+               </details>
+                  </aside>
+            </div>
+          </article>
+        </div>
+      </div>
+      </dl>
+    </section>
+    
+    <hr class="hrline">
+    <section href="#edu_section" class="edu_section" id="edu_section">
+  
+          <div class="timeline">
+
+  <div class="timeline-container left">
+    <div class="card">
+      <h3>Capgemini, Chennai</h3>
+      <p>Senior Consultant</p>
+      <p>Fullstack Java </p>
+      <span class="year">Mar-2023 - present</span>
+    </div>
+    <div class="icon"><i class="fa-solid fa-briefcase"></i></div>
+  </div>
+
+  <div class="timeline-container right">
+    <div class="card">
+      <h3>Cognizant Technology Solutions, Chennai</h3>
+      <p>Associate</p>
+      <p>Java, Spring Boot</p>
+      <span class="year">Jan-2021 - Mar-2023</span>
+    </div>
+    <div class="icon"><i class="fa-solid fa-briefcase"></i></div>
+  </div>
+  <div class="timeline-container left">
+    <div class="card">
+      <h3>Virtual Solutions and Services, Chennai</h3>
+      <p>Software Developer</p>
+      <p>Java, Spring, Spring Boot, Hibernate</p>
+      <span class="year">Apr-2017 - Jan-20213</span>
+    </div>
+    <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+  </div>
+<div class="timeline-container right">
+    <div class="card">
+      <h3>Vi Institute of Technology, Chengalpet</h3>
+      <p>Assistent Professor</p>
+      <span class="year">June-2014 - Feb-2016</span>
+    </div>
+    <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+  </div>
+  <div class="timeline-container left">
+    <div class="card">
+      <h3>JNN Institute of Technology, Chengalpet</h3>
+      <p>Assistent Professor</p>
+      <span class="year">Feb-2016 - Dec-2016</span>
+    </div>
+    <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+  </div>
+  <div class="timeline-container right">
+    <div class="card">
+      <h3>Sardar College of Engineering, tirunelveli</h3>
+      <p>Masters of Engineering</p>
+      <span class="year">2012 - 2014</span>
+    </div>
+    <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+  </div>
+  <div class="timeline-container left">
+    <div class="card">
+      <h3>Sardar College of Engineering, tirunelveli</h3>
+      <p>Bachelor of Engineering</p>
+      <span class="year">2009 - 2012</span>
+    </div>
+    <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+  </div>
+
+</div>
+</section>
+<!-- CONTACT -->
+    <section class="contact" id="contact">
+      <fieldset>
+        <legend>Get in touch</legend>
+        
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <form class="contact-form" action="#" onsubmit="event.preventDefault(); alert('Message sent (demo)')">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required />
+            </label><br><br>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required />
+            </label><br><br>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="btn primary" type="submit">Send message</button>
+          </form>
+          </div>
+          </div>
+          <div class="contact-info">
+            <p>Email: <a href="mailto:angelselvakumarinfo@example.com">angelselvakumarinfo@gmail.com</a></p><br>
+            <p>LinkedIn: <a href="#" target="_blank" rel="noopener">linkedin.com/in/angel</a></p><br>
+            <p>Github: <a href="#" target="_blank" rel="noopener">github.com/angel</a></p>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+      </fieldset>
+          </section>
+
+
+          
+    
+    <hr class="hrr">
+    <br>
+    <br>
+    <div class="slider">
+    <h3 class = "weapons">Weapons I Wield in the Battle of Development</h3>  
+<p class = "weapons">"Behold the tools that keep me sane-ish while I navigate the chaotic realm of coding. Because who needs sleep anyway?"</p>
+  <div class="slide-track">
+    <div class="tech"><img src="https://cdn.simpleicons.org/java/007396"><span>Java</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/spring/6DB33F"><span>Spring</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/springboot/6DB33F"><span>Spring Boot</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/apachemaven/C71A36"><span>Microservices</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/hibernate/59666C"><span>Hibernate</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/spring/6DB33F"><span>Spring Data JPA</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/azuredevops/0078D7"><span>Azure DevOps</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/swagger/85EA2D"><span>REST APIs</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/mysql/4479A1"><span>MySQL</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/docker/2496ED"><span>Docker</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/kubernetes/326CE5"><span>Kubernetes</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/postgresql/336791"><span>PostgreSQL</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/githubactions/2088FF"><span>CI/CD</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/git/F05032"><span>Git</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/visualstudiocode/007ACC"><span>VS Code</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/postman/FF6C37"><span>Postman</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/eclipseide/2C2255"><span>Eclipse</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/intellijidea/000000"><span>IntelliJ IDEA</span></div>
+    <div class="tech"><img src="https://cdn.simpleicons.org/pycharm/000000"><span>PyCharm</span></div>
+    <!-- 
+     <div class="tech"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+    <div class="tech"><i class="devicon-azure-devops-plain colored"></i><span>Azure DevOps</span></div>
+    <div class="tech"><i class="devicon-intellij-plain colored"></i><span>IntelliJ IDEA</span></div>
+    <div class="tech"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
+    <div class="tech"><i class="devicon-pycharm-plain colored"></i><span>PyCharm</span></div>-->
+  </div>
+</div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="yr"></span> Angel G. Built with care.</p>
+    </div>
+  </footer>
+
+  <script>
+    // small helpers: menu toggle and year
+    document.getElementById('yr').textContent = new Date().getFullYear();
+    const menu = document.getElementById('menuToggle');
+    const nav = document.querySelector('.nav');
+    menu.addEventListener('click', () => nav.classList.toggle('open'));
+    // simple smooth scroll for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', (e)=>{
+        const target = document.querySelector(a.getAttribute('href'));
+        if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth', block:'start'}); nav.classList.remove('open'); }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+slack, zohopeople, github, jira
+
+
+17-Nov -> obj with function as key, class, login page with js
+			action events.
+14-Nov -> if, loop, switch, for, ternary, function object 
+11-Nov -> JS basics -> typeOf, Number, String, boolean, 
+			undefined, String methods, math Methods,  
+10-Nov -> Full Portifolio completion, @media, website design
+9-Nov -> colors and portifolio impl
+6-Nov -> article, section, form, list, span, li, navbar
+3-Nov -> css intro, inline, internal, external, cmds,
+			selectors types ( elements sele, ID sel, group sel, class sel, group sel), span, font style, border, inheritance, priorities, colors(rgb, rgba, hex, hsl, hsla) color tools (get color code -> colers.co, contrast check-> coler contrast check)
+2-Nov -> Doubt clarity, application assignments, 
+1-Nov -> rel="dns-prefetch", menu, <a target, role=separator, 
+			<a tabindex or <div , <div data-name & other website discussion 
+
+
+31-oct -> form, afrticle, section, autocomplete="on, 
+			autofocus, required, input type=tel, number, min, max, value, step, select optgroup, fieldset, legend, input type = textarea, rows, cols, button, radio button, checkbox
+29-oct -> image, semantic tags: figure, figcaption,
+			body:header, main, footer, aside, details, summary, table, tr, th, td, thead, tbody, tfoot, colspan, rowspan = training3
+28-oct -> meta, link icon and css, hr, inline elements
+			(em, strong, html entity(&nbsp, &lt, &gt, &copy), <address>, comt line <!-- kjkgk-->, dl, link a href, internal ref->nav : #, selection   = training2
+27-oct -> basics html started -> html, head, title, body, 
+			ol, ul, select, label, text box, login page, br button = training
+25-oct -> setup issue clarification, some technical discussion
+24-oct -> Junit test cases
+23-oct -> doubt clarification
+17-oct -> Git repo create, commit, clone, push 
+16-oct -> delete
+15-oct -> update , debug mode execution
+14-oct -> findAll and findById implementation
+13-oct -> employee SpringBoot save method
+10-oct -> Calculator SB contoller to DAO impl
+09-oct -> spring init create SB project and basic setup
+08-oct -> Basics DB Queries and finally block
+
+06 -> 
+4 -> I think leave Saturday
+3 -> Local, global and static variable
+2 -> Employee with Switch case and Issue Tracking
+	2nd session -> while loop with debug tracking
+1 -> Emplyee Save and getID method
+30 -> Spring MVC base project structure with cal pgm
+24 -> String
+23 -> final, Interface
+22 -> Interview
+21 -> Leave
+20 -> super
+19 -> constructor and this
+18 -> set
+17 -> hashMap
+16 -> list
+15 -> Array handling, for and if
+14 -> ExceptionHandling
+13 -> Encapsulation
+12 -> abstraction
+11 -> polymor
+10 -> inheritance
+09 -> var , obj, class
+08 -> 	why java, basic pgm, sysout, class

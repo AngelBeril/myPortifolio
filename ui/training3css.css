@@ -1,0 +1,22 @@
+a{
+    cursor: not-allowed;
+    color: aliceblue;
+}
+a:visited{
+    color: brown;
+}
+a:active{
+    color: green;
+}
+a:hover{
+    color: black;
+}
+.menu{
+    color: aliceblue;
+    display: inline-block;
+    text-align: left;
+    margin-inline: 2rem;
+}
+li a:focus{
+    text-decoration: underline;
+}

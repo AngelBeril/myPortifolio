@@ -1,0 +1,55 @@
+header{
+    width: 100%;
+    border: 2px dashed red;
+}
+h1{
+    border: 3px double black;
+    border-left: 5px double purple;
+    width: 50%;
+    font-size: 2rem;
+    padding: 2em 1.5em 1.5em 0.5em;
+    margin: 2em 1.5em 1.5em 0.5em;
+    outline: 5px solid blue;
+    outline-offset: -20px;
+}
+
+li{
+    font-size: 1.5rem;
+    padding: 0.3em;
+    font-weight: 500;
+    font-style: italic;
+    /*letter-spacing: 0.5em;
+    word-spacing: 0.5em;*/
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.html{
+    text-align: justify;
+    text-indent: 3em;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: square;
+    color: brown;
+}
+
+ul li:nth-child(2){
+    color: blue;
+    font-weight: bold;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+::marker{
+    color: blueviolet;
+}
+
+ul li::marker{
+    color: black;
+}
